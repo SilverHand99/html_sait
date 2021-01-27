@@ -1,0 +1,49 @@
+body{
+    background:url(img/BLACK.jpg)
+}
+p{color: silver}
+body{
+    font-family: CENTURY GOTHIC;
+    font-size: 18px;
+}
+
+.container{
+    width: 200px;
+    float: right;
+    height: 800px;
+    padding: 40px;
+    text-align: center;
+    flex-direction: column-reverse;
+    display: flex;
+}
+#left img{
+    border: 5px black solid;
+    float: left;
+    margin: 100px 30px;
+    flex-direction: column-reverse;
+
+}
+#Podval{
+    clear: both;
+    padding: 5px;
+    background: dimgray;
+    height: 50px;
+    margin-top:-50px;
+    color: silver;
+}
+body, html {
+    margin:0px;
+    padding:0px;
+    height: 100%;
+}
+
+header{  width: 100%;
+    height: 60px;
+    color: silver;
+    background: dimgray;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    position: fixed;
+
+}
